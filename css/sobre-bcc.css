@@ -1,0 +1,494 @@
+.Banner {
+    background-color: var(--brand-primary-dark);
+}
+#quem-somos-bcc {
+    background-color: var(--neutral-high-pure);
+}
+#quem-somos-bcc .highlight {
+    color: var(--neutral-high-lightest);
+    background-color: var(--brand-secondary-pure);
+}
+#quem-somos-bcc .item-cad-horizontal {
+    display: grid;
+    gap: 88px;
+}
+#quem-somos-bcc .card-horizontal-img {
+    position: relative;
+}
+#quem-somos-bcc .card-horizontal-img img {
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+    aspect-ratio: 1 / 1.02;
+    object-fit: contain;
+}
+#quem-somos-bcc .card-horizontal-text h2 {
+    color: var(--brand-primary-pure);
+    margin-bottom: 24px;
+    font-weight: 600;
+    line-height: 110%;
+}
+#quem-somos-bcc .card-horizontal-text div * {
+    font-style: normal;
+    font-weight: 400;
+    color: var(--brand-primary-pure);
+    line-height: 160%;
+    font-size: var(--text-body-sm);
+}
+#bases .highlight {
+    color: var(--neutral-high-lightest);
+    background-color: var(--brand-secondary-pure);
+}
+#bases .item-cad-horizontal {
+    display: grid;
+    gap: 88px;
+    margin-top: 40px;
+}
+#bases .card-horizontal-img {
+    position: relative;
+}
+#bases .card-horizontal-img img {
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+    object-fit: contain;
+}
+#bases h2 {
+    color: var(--brand-primary-pure);
+    margin-bottom: 24px;
+    font-weight: 600;
+    line-height: 110%;
+}
+#bases .card-horizontal-text h3 {
+    font-weight: bold;
+    color: var(--brand-primary-pure);
+    line-height: 120%;
+    font-size: var(--text-title-xs);
+}
+#bases .card-horizontal-text p {
+    font-weight: 400;
+    color: var(--brand-primary-pure);
+    line-height: 160%;
+    font-size: var(--text-body-sm);
+}
+#bases .card-horizontal-text {
+    display: flex;
+    max-width: 450px;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: auto;
+}
+#bases .card-horizontal-text .item-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#bases .card-horizontal-text .item-card img {
+    width: 72px;
+}
+#bases .card-horizontal-img::after {
+    width: 100%;
+    height: 100%;
+    top: 25%;
+    right: 38%;
+    position: absolute;
+    content: '';
+    background-image: url(../assets/detalhe-img.svg);
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+#conquistas {
+    background-color: var(--brand-primary-lightest);
+  }
+  #conquistas .swiper {
+    margin-top: 80px;
+  }
+  #conquistas .highlight {
+    color: var(--neutral-high-lightest);
+    background-color: var(--brand-secondary-pure);
+  }
+  #conquistas h2 {
+    color: var(--brand-primary-pure);
+    font-weight: 600;
+    line-height: 110%;
+    max-width: 840px;
+    margin-inline: auto;
+  }
+  #conquistas .carousel-container {
+    width: 100%;
+    position: relative;
+    padding-bottom: 58px;
+    margin-bottom: 40px;
+  }
+  #conquistas .card-item {
+    width: 303px;
+    background: var(--neutral-high-lightest);
+    border-radius: 30px;
+    padding: 24px 17px;
+    text-align: center;
+    min-height: 303px;
+    min-height: -webkit-fill-available;
+  }
+  #conquistas .carousel-container .card-item img {
+    margin-inline: auto;
+    max-width: 100%;
+    object-fit: scale-down;
+    height: 50px;
+    margin-bottom: 20px;
+    object-position: left;
+  }
+  #conquistas .swiper-slide.card-item .flex-item-card {
+    border-top: 3px solid var(--neutral-low-light);
+  }
+  #conquistas .card-item p {
+    text-align: left;
+    font-size: var(--text-body-sm);
+    color: var(--neutral-low-pure);
+    line-height: 160%;
+    padding: 0 8px;
+  }
+  #conquistas .card-item h3 {
+    text-align: left;
+    font-size: var(--text-body-sm);
+    color: var(--neutral-low-pure);
+    font-weight: 600;
+    line-height: 160%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 8px;
+  }
+  #conquistas span.icon-stars {
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-image: url('../assets/star.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #conquistas .carousel-container {
+    overflow: visible;
+  }
+  #conquistas body {
+    overflow-x: hidden;
+  }
+  #conquistas .swiper.carousel-container::before {
+    content: '';
+    width: 100vw;
+    height: 108%;
+    background-color: var(--brand-primary-lightest);
+    z-index: 3;
+    position: absolute;
+    left: -100vw;
+    top: -5px;
+  }
+
+  #jornada-bcc .swiper {
+    margin-top: 80px;
+  }
+  #jornada-bcc .highlight {
+    color: var(--neutral-high-lightest);
+    background-color: var(--brand-secondary-pure);
+  }
+  #jornada-bcc .card-content-history {
+    padding-right: 32px;
+  }
+  #jornada-bcc h2 {
+    color: var(--brand-primary-pure);
+    font-weight: 600;
+    line-height: 110%;
+    max-width: 840px;
+    margin-inline: auto;
+  }
+  #jornada-bcc .carousel-container {
+    width: 100%;
+  }
+  #jornada-bcc picture.picture-wrapper {
+    display: block;
+    position: relative;
+  }
+  #jornada-bcc picture.picture-wrapper img {
+    max-width: 100%;
+    margin-inline: auto;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+  }
+  #jornada-bcc .card-carrossel {
+    display: grid;
+    transition: 0.3s ease-in-out;
+    gap: 48px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    padding-bottom: 0;
+  }
+  #jornada-bcc .container-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #jornada-bcc .item-actions {
+    width: 100%;
+    position: relative;
+    grid-column: 2;
+  }
+  #jornada-bcc .container-btns button {
+    border: none;
+  }
+  #jornada-bcc picture.picture-wrapper::after {
+    content: '';
+    width: 70px;
+    height: 70px;
+    background-image: url(../assets/icon-calendario.svg);
+    display: block;
+    position: absolute;
+    background-size: contain;
+    z-index: 2;
+    top: 0;
+    right: 130px;
+  }
+  #jornada-bcc .swiper-paginatio {
+    top: 0 !important;
+    bottom: inherit !important;
+    margin-left: 78px !important;
+  }
+  #jornada-bcc body {
+    overflow-x: hidden;
+  }
+  #jornada-bcc .swiper.swiper-initialized.swiper-horizontal.carousel-container::before {
+    content: '';
+    width: 100vw;
+    height: 108%;
+    background: #fff;
+    z-index: 3;
+    position: absolute;
+    left: -101vw;
+    top: -5px;
+  }
+  #jornada-bcc .title-container-carrossel {
+    font-size: var(--text-title-xxxl);
+    font-weight: bolder;
+    line-height: 85px;
+    color: var(--brand-primary-lightest);
+    margin-bottom: 40px;
+  }
+  #jornada-bcc .title-container-carrossel strong {
+    font-size: 132px;
+    display: block;
+    position: relative;
+    left: 115px;
+    color: var(--brand-primary-pure);
+  }
+  #jornada-bcc .card-content-text,
+  #jornada-bcc .card-content-text p {
+    font-weight: 400;
+    color: var(--brand-primary-pure);
+    line-height: 160%;
+    font-size: var(--text-body-sm);
+  }
+  #jornada-bcc .card-image-carrossel {
+    position: relative;
+    background-image: url(../assets/graficos-fundo-carrossel-historias.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 67px 0;
+    background-size: contain;
+  }
+  #jornada-bcc .swipper-bullets-mod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 120px !important;
+    margin-left: 105px;
+    gap: 10px;
+  }
+  #jornada-bcc .card-content-history picture {
+    display: none;
+  }
+  #jornada-bcc .card-content-history picture img {
+    max-width: 180px;
+    margin-inline: auto;
+    margin-bottom: 14px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    #jornada-bcc .container-btns button.swiper-button-next {
+      right: 42% !important;
+      bottom: -20px;
+    }
+    #jornada-bcc .container-btns button.swiper-button-prev {
+      left: 42% !important;
+      bottom: -20px;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    #jornada-bcc .card-carrossel {
+      display: block;
+    }
+    #jornada-bcc .card-image-carrossel {
+      display: none !important;
+    }
+    #jornada-bcc .card-content-history picture {
+      display: block;
+    }
+    #jornada-bcc .container-btns {
+      grid-template-columns: 1fr;
+    }
+    #jornada-bcc .item-actions {
+      grid-column: 1;
+    }
+    #jornada-bcc .swipper-bullets-mod {
+      display: none !important;
+    }
+  }
+
+@media screen and (max-width: 1180px) {
+    #quem-somos-bcc .item-cad-horizontal {
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #jornada-bcc .swiper {
+        margin-top: 0;
+      }
+      #jornada-bcc picture.picture-wrapper img {
+        max-width: 180px;
+        margin-inline: auto;
+        max-height: 180px;
+        object-fit: contain;
+      }
+      #jornada-bcc .card-image-carrossel {
+        padding: 0 0;
+        background-size: 75%;
+        background-position: center;
+      }
+      #jornada-bcc .title-container-carrossel,
+      #jornada-bcc .title-container-carrossel strong {
+        font-size: var(--text-body-xl);
+        text-align: center;
+        line-height: 110%;
+        margin-bottom: 0;
+      }
+      #jornada-bcc .content-image-mobile {
+        background-image: url(../assets/grafico-historia-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: center 2px;
+        background-size: 245px 144px;
+        padding-top: 14px;
+        display: block;
+      }
+      #jornada-bcc .card-content-history picture {
+        margin-inline: auto;
+        max-width: 180px;
+        position: relative;
+      }
+      #jornada-bcc .card-content-history picture::after {
+        content: '';
+        width: 38px;
+        height: 38px;
+        background-image: url(../assets/icon-calendario.svg);
+        display: block;
+        position: absolute;
+        background-size: contain;
+        z-index: 2;
+        bottom: 0;
+        left: 0;
+      }
+      #jornada-bcc .title-container-carrossel strong {
+        display: inline;
+        position: inherit;
+      }
+      #jornada-bcc section {
+        margin-bottom: 64px;
+      }
+      #jornada-bcc picture.picture-wrapper {
+        margin-inline: auto;
+        max-width: 180px;
+      }
+      #jornada-bcc .card-content-history p {
+        padding-inline: 20px;
+      }
+      #jornada-bcc .card-content-history::after {
+        left: calc(50% - 12px);
+      }
+      #jornada-bcc .date-carrossel {
+        margin-inline: auto;
+      }
+      #jornada-bcc .card-content-history {
+        padding-right: 0;
+        text-align: center;
+      }
+      #jornada-bcc picture.picture-wrapper::after {
+        width: 40px;
+        height: 40px;
+        right: inherit;
+        bottom: 0;
+        top: inherit;
+      }
+      #jornada-bcc .item-actions {
+        margin-top: 14px;
+      }
+      #jornada-bcc button.swiper-button-next.n-historia,
+      #jornada-bcc button.swiper-button-prev.p-historia {
+        bottom: inherit !important;
+        top: 22px !important;
+      }
+    #conquistas .content-title.t-center {
+      text-align: left;
+    }
+    #conquistas .t-center .highlight {
+      margin-inline: inherit;
+    }
+    #conquistas .carousel-container {
+      padding-bottom: 0;
+      margin-bottom: 64px;
+      margin-top: 32px;
+    }
+    #conquistas .carousel-container::after {
+      left: 20px;
+    }
+    #quem-somos-bcc .item-cad-horizontal {
+      gap: 16px;
+    }
+    #quem-somos-bcc .grid-2 {
+      grid-template-columns: 1fr;
+    }
+    #bases .grid-2{
+      grid-template-columns: 1fr;
+    }
+    #bases .card-horizontal-img img {
+      max-width: 70%;
+      margin-inline: auto;
+    }
+    #bases .card-horizontal-img::after {
+      display: none;
+    }
+    #bases .item-cad-horizontal {
+      gap: 32px;
+    }
+    #bases .card-horizontal-text .item-card img {
+      margin-inline: auto;
+    }
+    #bases .card-horizontal-text .item-card {
+      text-align: center;
+    }
+    section#jornada-bcc {
+      margin-bottom: 64px;
+    }
+    #bases .card-horizontal-text {
+      margin-inline: auto;
+    }
+    .item-banner.container {
+      margin-top: 90px;
+    }
+    .Banner .grid-item-banner-texto h2 {
+      text-align: center;
+    }
+}

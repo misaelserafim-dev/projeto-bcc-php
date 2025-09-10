@@ -1,0 +1,357 @@
+.Banner {
+    background-color: var(--brand-primary-pure);
+}
+#atmosfera .highlight {
+    color: var(--neutral-high-lightest);
+    background-color: var(--brand-primary-pure);
+  }
+.background-parallax {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 276px;
+    width: 100%;
+    background-position: 50% center;
+}
+  #atmosfera .item-cad-horizontal {
+    display: grid;
+    gap: 210px;
+    grid-template-columns: 2fr 1.2fr;
+  }
+  #atmosfera .card-horizontal-img {
+    position: relative;
+  }
+  #atmosfera .card-horizontal-img img {
+    max-width: 100%;
+    position: relative;
+    margin-left: auto;
+    z-index: 2;
+  }
+  #atmosfera .card-horizontal-text h2 {
+    color: var(--brand-primary-pure);
+    margin-bottom: 24px;
+    font-weight: 600;
+    line-height: 110%;
+  }
+  #atmosfera .card-horizontal-text p {
+    font-style: normal;
+    font-weight: 400;
+    color: var(--brand-primary-pure);
+    line-height: 160%;
+    font-size: var(--text-body-sm);
+  }
+  #para-comecar {
+    position: relative;
+    background-color: var(--brand-secondary-pure);
+  }
+  #para-comecar .highlight {
+    color: var(--neutral-high-lightest);
+    background-color: var(--brand-secondary-dark);
+  }
+  #para-comecar .item-cad-horizontal {
+    display: grid;
+    gap: 69px;
+    grid-template-columns: 1fr 1.2fr;
+  }
+  #para-comecar .item-cad-horizontal .content {
+    margin-bottom: 32px;
+  }
+  #para-comecar .card-horizontal-img {
+    position: relative;
+    margin-top: 64px;
+  }
+  #para-comecar .card-horizontal-img img {
+    max-width: 100%;
+    position: relative;
+    margin-left: auto;
+    z-index: 2;
+  }
+  #para-comecar .card-horizontal-text h2 {
+    margin-bottom: 24px;
+    font-weight: 600;
+    line-height: 110%;
+  }
+  #para-comecar .card-horizontal-text p {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    font-size: var(--text-body-sm);
+  }
+
+  #prioridades .background-parallax {
+    height: 276px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #prioridades {
+    background-color: var(--neutral-high-pure);
+  }
+  #prioridades .highlight {
+    color: var(--brand-primary-pure);
+    background-color: var(--neutral-high-lightest);
+  }
+  #prioridades .item-cad-horizontal {
+    display: grid;
+    gap: 210px;
+    grid-template-columns: 2fr 1.1fr;
+  }
+  #prioridades .card-horizontal-img {
+    position: relative;
+    display: flex;
+  }
+  #prioridades .card-horizontal-img img {
+    max-width: 100%;
+    position: relative;
+    margin-left: auto;
+    z-index: 2;
+    margin-top: auto;
+  }
+  #prioridades .card-horizontal-text h2 {
+    color: var(--brand-primary-pure);
+    margin-bottom: 24px;
+    font-weight: 600;
+    line-height: 110%;
+  }
+  #prioridades .card-horizontal-text p {
+    font-style: normal;
+    font-weight: 400;
+    color: var(--brand-primary-pure);
+    line-height: 160%;
+    font-size: var(--text-body-sm);
+  }
+  #prioridades .list-itens {
+    gap: 84px 56px;
+    margin-top: 72px;
+  }
+  #prioridades .list-itens .item-list img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  #prioridades picture.div-icon {
+    overflow: hidden;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  #prioridades .item-list h4 {
+    color: var(--brand-primary-pure);
+    font-weight: bold;
+    margin-bottom: 8px;
+    line-height: 120%;
+    font-size: var(--text-title-xs);
+  }
+  #prioridades .card-horizontal-img::before {
+    content: '';
+    position: absolute;
+    right: -37%;
+    top: 0;
+    width: 100%;
+    height: 112%;
+    background-image: url(../assets/fundo-curvas.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  
+  #projetos-internos .swiper {
+    margin-top: 124px;
+  }
+  #projetos-internos .highlight {
+    color: var(--brand-primary-pure);
+    background-color: var(--brand-primary-lightest);
+  }
+  #projetos-internos h2 {
+    color: var(--brand-primary-pure);
+    font-weight: 600;
+    line-height: 110%;
+    margin-inline: auto;
+  }
+  #projetos-internos .carousel-container {
+    width: 100%;
+  }
+  #projetos-internos .card-carrossel {
+    width: 328px;
+    transition: 0.3s ease-in-out;
+  }
+  #projetos-internos .card-content-project .icone-item {
+    width: 160px;
+    height: 160px;
+    margin-inline: auto;
+    background: var(--brand-primary-lightest);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 32px;
+  }
+  #projetos-internos .date-carrossel {
+    width: 172px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: var(--brand-primary-lightest);
+    border-radius: 48px;
+    margin-bottom: 22px;
+    justify-content: center;
+    gap: 12px;
+    font-size: var(--text-title-xxs);
+    color: var(--brand-primary-pure);
+    font-weight: bold;
+    position: relative;
+    padding: 18px 22px;
+  }
+  #projetos-internos .carousel-container {
+    position: relative;
+  }
+  #projetos-internos .carousel-container {
+    overflow: visible;
+  }
+  #projetos-internos body {
+    overflow-x: hidden;
+  }
+  #projetos-internos .swiper.swiper-initialized.swiper-horizontal.carousel-container::before {
+    content: '';
+    width: 100vw;
+    height: 108%;
+    background: #fff;
+    z-index: 3;
+    position: absolute;
+    left: -101vw;
+    top: -5px;
+  }
+  #projetos-internos .content-title p {
+    font-weight: 400;
+    line-height: 160%;
+    color: var(--brand-primary-pure);
+    font-size: var(--text-body-md);
+    margin-top: 24px;
+  }
+  #projetos-internos .card-content-project img {
+    margin-inline: auto;
+    max-width: 100%;
+    -o-object-fit: container;
+    object-fit: contain;
+  }
+  #projetos-internos .card-content-project h3 {
+    font-weight: 700;
+    text-align: center;
+    line-height: 120%;
+    font-size: var(--text-title-xs);
+    color: var(--brand-primary-pure);
+    margin-bottom: 8px;
+  }
+  #projetos-internos .card-content-project p {
+    font-size: var(--text-body-sm);
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    line-height: 160%;
+    color: var(--brand-primary-pure);
+  }
+  
+  @media screen and (max-width: 1180px) {
+    #atmosfera .item-cad-horizontal , #prioridades .item-cad-horizontal{
+      gap: 24px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    section#projetos-internos {
+        margin-bottom: 64px;
+    }
+    #prioridades picture.div-icon {
+        margin-inline: auto;
+      }
+      #prioridades span.highlight {
+        margin-inline: auto;
+      }
+      #prioridades .card-horizontal-text {
+        text-align: center;
+      }
+      #prioridades .card-horizontal-text h2 {
+        padding-inline: 40px;
+      }
+      #prioridades .item-cad-horizontal {
+        gap: 56px;
+        grid-template-columns: 1fr;
+      }
+      #prioridades .card-horizontal-text p {
+        font-size: var(--text-body-xs);
+      }
+      #prioridades .card-horizontal-img::before {
+        display: none;
+      }
+      #prioridades .item-list p {
+        font-size: var(--text-body-sm);
+      }
+      #prioridades .list-itens .item-list img {
+        margin-inline: auto;
+      }
+      #prioridades .list-itens.grid.grid-2 {
+        grid-template-columns: 1fr;
+        max-width: 320px;
+        margin-inline: auto;
+      }
+      #prioridades .list-itens {
+        gap: 56px;
+        margin-top: 56px;
+      }
+      #prioridades .card-horizontal-img img {
+        max-width: 75%;
+        margin-inline: auto;
+      }
+    #para-comecar .item-cad-horizontal {
+        gap: 32px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #para-comecar .card-horizontal-img {
+        margin-top: 0;
+    }
+    #para-comecar .card-horizontal-text p {
+        font-size: var(--text-body-xs);
+    }
+    .item-banner.container {
+        margin-top: 90px;
+    }
+    .Banner .grid-item-banner-texto h2 {
+        text-align: center;
+    }
+    #atmosfera .content-title.t-center {
+        text-align: left;
+    }
+    #atmosfera .t-center .highlight {
+        margin-inline: inherit;
+    }
+    #atmosfera .item-cad-horizontal {
+        gap: 32px;
+        grid-template-columns: 1fr;
+    }
+    #atmosfera .card-horizontal-text p {
+        font-size: var(--text-body-xs);
+    }
+    #projetos-internos .content-title p {
+        font-size: var(--text-body-xs);
+      }
+      #projetos-internos .swiper {
+        margin-top: 32px;
+      }
+      #projetos-internos section {
+        margin-bottom: 64px;
+      }
+      #projetos-internos .card-content-project .icone-item {
+        width: 120px;
+        height: 120px;
+      }
+      #projetos-internos .card-content-project p {
+        font-weight: 400;
+      }
+}
