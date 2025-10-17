@@ -42,11 +42,11 @@
     
     <?php include 'includes/footer.php'; ?>
     
-    <!-- Swiper JS (async) -->
-    <script src="<?php echo asset_url('libs/swiper/swiper-bundle.min.js'); ?>" async></script>
-    <!-- Scripts globais primeiro (defer) -->
-    <script src="<?php echo asset_url('js/scripts.js'); ?>" defer></script>
-    <!-- Scripts específicos da página depois (defer) -->
-    <script src="<?php echo asset_url('js/index.js'); ?>" defer></script>
+    <!-- Swiper JS -->
+    <script src="libs/swiper/swiper-bundle.min.js"></script>
+    <!-- Scripts globais primeiro -->
+    <script src="js/scripts.js"></script>
+    <!-- Scripts específicos da página depois -->
+    <script src="js/index.js"></script>
 </body>
 </html>

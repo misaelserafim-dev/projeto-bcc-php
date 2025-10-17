@@ -11,7 +11,7 @@ require_once __DIR__ . '/cache-system.php';
  */
 
 // Endpoint centralizado
-const GRAPHQL_ENDPOINT = ' ';
+const GRAPHQL_ENDPOINT = 'https://misaelserafim.online/bcc/graphql';
 
 /**
  * Função principal para fazer requisições GraphQL
