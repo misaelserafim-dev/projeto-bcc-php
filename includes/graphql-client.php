@@ -1,7 +1,7 @@
 <?php
-/**
- * Cliente GraphQL para WordPress
- */
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/..');
+$dotenv->load(); 
 
 // Incluir sistema de cache
 require_once __DIR__ . '/cache-system.php';
@@ -11,7 +11,8 @@ require_once __DIR__ . '/cache-system.php';
  */
 
 // Endpoint centralizado
-const GRAPHQL_ENDPOINT = 'https://misaelserafim.online/bcc/graphql';
+
+define('GRAPHQL_ENDPOINT', getenv('GRAPHQL_ENDPOINT') ?: '';
 
 /**
  * Função principal para fazer requisições GraphQL
