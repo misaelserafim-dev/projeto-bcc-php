@@ -120,7 +120,7 @@ O cache é uma **"memória temporária"** que torna o site muito mais rápido, e
 ### 📝 Alterações de Conteúdo (WordPress)
 Para alterar **textos, imagens e vídeos**, acesse o painel do WordPress:
 
-**🔗 Link:** [https://www.brasilcenter.com.br/wordpress/wp-admin/](https://www.brasilcenter.com.br/wordpress/wp-admin/)
+**🔗 Link:** **********
 
 - **HOME:** Páginas → Home → (Banner, Lista de Imagens, Vídeos, Find Out)
 - **SOBRE:** Páginas → Sobre BCC → (Banner, História, Conquistas)
@@ -142,7 +142,6 @@ Para alterar **código, estilos e funcionalidades:**
 ## 🔗 API e Endpoints
 
 ### Configuração
-- **Endereço do WordPress:** https://www.brasilcenter.com.br/wordpress/graphql
 - **Tempo limite:** 15 segundos para resposta
 - **Cache:** Dados ficam salvos por 30 minutos
 
